@@ -3,10 +3,12 @@
  * program: The hello world program in C
 */
 
-#include <stdio.h> //Necesary library to print in the screem
+#include <stdio.h> //Necessary library to print on the screen
 
-int main()
+int main() //The main funtion is where the program execution begins
 {
-  printf();
+  printf("Hello, world!\n"); //Prints the message on the screen
+
+  return 0; //Inidicates the program finished correctly
 }
 
