@@ -1,0 +1,46 @@
+/*
+ * Program that add two integer numbers entered by the user.
+ * @author Dante Aleman
+ */
+
+#include <stdio.h>
+#include <stdbool.h>
+
+int add_int(int, int);
+float add_float(float, float);
+
+int main()
+{
+  int opction = 0;
+  printf("Press 1 to add integers, press 2 to add floats: ");
+  scanf("%i", &opction);
+
+  if (option == 1)
+    {
+      int a, b;
+      printf("Enter the first number: ");
+      scanf("%i", &a);
+      printf("\nEnter the second number: ")
+	;
+    }
+  else if (option == 2)
+    {
+      printf("Enter two number");
+    }
+  else
+    {
+      printf("Invalid option!!!");
+    }
+}
+
+int add_int(int a, int b)
+{
+  return a + b;
+}
+
+float add_float(float a, float b)
+{
+  return a + b;
+}
+    
+
